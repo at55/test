@@ -1,6 +1,12 @@
 # column set
 
 SET LIN 999 PAGES 9999 ti on
+set feedback off
+set pagesize 9999
+set linesize 2000
+set trimspool on
+set trimout on
+
 COL TABLESPACE_NAME FOR A30
 COL FILE_NAME FOR A50
 COL VALUE FOR 9999999999999999999
